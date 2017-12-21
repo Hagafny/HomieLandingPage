@@ -1214,6 +1214,7 @@ p {
     color: #ffffff;
     font-weight: 500;
     border-radius: 22px 25px 22px 0;
+    cursor: pointer;
 }
 
 .btn.submit-btn:hover {
