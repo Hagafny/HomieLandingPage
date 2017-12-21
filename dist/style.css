@@ -68,6 +68,7 @@ h6 {
 
 .section_padding_100 {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .section_padding_100_50 {
@@ -752,13 +753,13 @@ p {
 .cool_facts_area {
     position: relative;
     z-index: auto;
-    background: #a865e1;
-    background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
-    background: -webkit-linear-gradient(right, #7873ed, #a865e1);
-    background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
-    background: -o-linear-gradient(right, #7873ed, #a865e1);
-    background: linear-gradient(to left, #7873ed, #a865e1);
-    padding: 180px 0 80px 0;
+    background: #5398e8;
+    background: -webkit-linear-gradient(to left, #3addfc, #5398e8);
+    background: -webkit-linear-gradient(right, #3addfc, #5398e8);
+    background: -webkit-gradient(linear, right top, left top, from(#3addfc), to(#5398e8));
+    background: -o-linear-gradient(right, #3addfc, #5398e8);
+    background: linear-gradient(to left, #3addfc, #5398e8);
+    padding: 55px 0 57px 0;
     top: -100px;
 }
 
