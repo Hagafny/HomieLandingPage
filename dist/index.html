@@ -179,7 +179,7 @@
                 <div class="col-md-6">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
+                        <form>
                             <!-- Message Input Area Start -->
                             <div class="contact_input_area">
                                 <div class="row">
@@ -203,7 +203,7 @@
                                     </div>
                                     <!-- Single Input Area Start -->
                                     <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                                        <button id="lead_form_submit" type="submit" class="btn submit-btn">Send Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -231,6 +231,7 @@
             <p>Copyright ©2017 Homie</p>
         </div>
     </footer>
+
     <!-- Jquery-2.2.4 JS -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -245,5 +246,20 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+
+    <script>
+$("#lead_form_submit").click(function(e) {
+    $( "form" ).on( "submit", function( event ) {
+        event.preventDefault();
+        var that = $(this);
+        $.post('/lead', that.serialize(), function(res) {
+            if (res == "success") {
+                that.find("input[type=text], input[type=email], textarea").val("");
+                alert("Thanks for contacting us! We'll get back to you soon");
+            }
+        });
+      });
+})
+    </script>
 </body>
 </html>
