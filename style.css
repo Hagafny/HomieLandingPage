@@ -1,5 +1,5 @@
 /* --------------------------
-:: Template Name: Colorlib App - App Landing Page 
+:: Template Name: Colorlib App - App Landing Page
 :: Template Author: Colorlib
 :: Template Author URI: https://colorlib.com/
 :: Description: Colorlib is a One Page based App Landing Template. It's very clean, creative & beautiful. It's super     responsive & ultra light.
@@ -61,9 +61,13 @@ h6 {
     line-height: 1.2;
 }
 
+.logo {
+    max-width:55px;
+    max-height:55px;
+}
+
 .section_padding_100 {
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .section_padding_100_50 {
@@ -199,7 +203,7 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #4cabee;
     color: #fff;
     text-align: center;
     height: 50px;
@@ -233,7 +237,7 @@ p {
 
 .section-heading > h2 {
     font-weight: 300;
-    color: #5b32b4;
+    color: #4cabee;
     font-size: 48px;
     margin: 0;
 }
@@ -247,7 +251,7 @@ p {
 .line-shape {
     width: 80px;
     height: 2px;
-    background-color: #fb397d;
+    background-color: #0959ac;
     margin-top: 15px;
 }
 
@@ -367,7 +371,7 @@ p {
 
 
 .menu_area nav ul li > a:hover {
-    color: #fb397d;
+    color: #0044ff;
 }
 
 .sing-up-button {
@@ -398,7 +402,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #fff;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -425,7 +429,7 @@ p {
 
 .wellcome_area {
     background-image: url(img/bg-img/welcome-bg.png);
-    height: 900px;
+    height: 800px;
     position: relative;
     z-index: 1;
     background-position: bottom center;
@@ -446,7 +450,7 @@ p {
 .welcome-thumb {
     width: 45%;
     position: absolute;
-    bottom: -130px;
+    bottom: -10px;
     right: 85px;
     z-index: 9;
 }
@@ -465,7 +469,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #9572e8;
+    background: #fff;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -500,7 +504,7 @@ p {
 }
 
 .get-start-area .submit {
-    background-color: #fb397d;
+    background-color: #055AAC;
     color: #fff;
     font-weight: 500;
     display: inline-block;
@@ -514,7 +518,7 @@ p {
 }
 
 .get-start-area .submit:hover {
-    background: #6f52e5;
+    background: #4cabee;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -546,13 +550,13 @@ p {
 -------------------------- */
 
 .single-icon > i {
-    font-size: 36px;
-    color: #fb397d;
+    font-size: 45px;
+    color: #0959ac
 }
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #4cabee;
 }
 
 .single-icon {
@@ -561,7 +565,7 @@ p {
 
 .single-special > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #4cabee;
     margin-bottom: 15px;
 }
 
@@ -576,7 +580,7 @@ p {
 }
 
 .special_description_content > h2 {
-    color: #5b32b4;
+    color: #0a58ac;
     font-size: 48px;
     margin-bottom: 30px;
 }
@@ -622,7 +626,7 @@ p {
 .app-download-btn.active a,
 .app-download-btn a:hover {
     border-color: transparent;
-    background-color: #fb397d;
+    background-color: #055AAC;
 }
 
 .app-download-btn a i {
@@ -680,7 +684,7 @@ p {
 
 .single-feature > h5 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #4cabee;
 }
 
 .single-feature > p {
@@ -698,7 +702,7 @@ p {
     background-size: cover;
     border: 20px solid #fff;
     border-radius: 20px;
-    height: 650px;
+    height:650px;
     -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 }
@@ -860,7 +864,7 @@ p {
 }
 
 .single-price-plan .package-plan > h5 {
-    color: #5b32b4;
+    color: #4cabee;
     font-size: 18px;
 }
 
@@ -921,7 +925,7 @@ p {
 -------------------------- */
 
 .clients-feedback-area .client-name > h5 {
-    color: #5b32b4;
+    color: #4cabee;
     font-size: 22px;
     margin-top: 5px;
 }
@@ -1053,7 +1057,7 @@ p {
 }
 
 .get-started-button > a {
-    background: #ffffff;
+    background: #4cabee;
     height: 45px;
     min-width: 155px;
     display: inline-block;
@@ -1065,7 +1069,7 @@ p {
 }
 
 .get-started-button > a:hover {
-    background: #5b32b4;
+    background: #4cabee;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1093,12 +1097,14 @@ p {
 
 .member-text > h4 {
     font-size: 22px;
-    color: #5b32b4;
+    color: #0959ac;
+    text-align: center;
 }
 
 .member-text > p {
     color: #b5aec4;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .team-hover-effects {
@@ -1107,7 +1113,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(105, 75, 228, 0.8);
+    background-color: rgba(20, 170, 400, 0.8);
     border-radius: 30px 30px 30px 0;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1142,7 +1148,7 @@ p {
 .team-social-icon > a {
     font-size: 14px;
     color: #fff;
-    background: #9a81d7;
+    background: #0959ac;
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -1170,7 +1176,7 @@ p {
 .address-text > p > span,
 .phone-text > p > span,
 .email-text > p > span {
-    color: #5b32b4;
+    color: #0959ac;
 }
 
 .footer-contact-area .line-shape {
@@ -1202,7 +1208,7 @@ p {
 }
 
 .btn.submit-btn {
-    background: #fb397d;
+    background: #0959ac;
     height: 48px;
     min-width: 185px;
     color: #ffffff;
@@ -1211,7 +1217,7 @@ p {
 }
 
 .btn.submit-btn:hover {
-    background: #5b32b4;
+    background: #4cabee;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1231,13 +1237,13 @@ p {
 -------------------------- */
 
 .footer-text > h2 {
-    color: #5b32b4;
+    color: #4cabee;
     font-size: 72px;
     font-weight: 700;
 }
 
 .footer-social-icon > a > i {
-    background: #9b69e4;
+    background: #4cabee;
     font-size: 14px;
     color: #ffffff;
     height: 40px;
@@ -1249,7 +1255,7 @@ p {
 }
 
 .footer-social-icon > a > i:hover {
-    background: #fb397d;
+    background: #0959ac;
     color: #fff;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
@@ -1273,10 +1279,6 @@ p {
     display: block;
     padding: 0 7.5px;
     color: #726a84;
-}
-
-.footer-social-icon > a .active {
-    background: #fb397d;
 }
 
 .footer-menu ul li:last-child a {
